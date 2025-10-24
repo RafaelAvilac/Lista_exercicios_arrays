@@ -15,6 +15,14 @@ programa
 					cont_pares++				
 				}
 		}
+		limpa()
+		escreva("\nVoce digitou, ",cont_pares," numeros pares")
+		escreva("\nEles são:\n")
+		para(i = 0; i < 10; i++){
+			se(numeros_pares[i] != 0){
+			escreva(numeros_pares[i], "\t")
+			}
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 259; 
+ * @POSICAO-CURSOR = 470; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {numeros, 9, 10, 7}-{numeros_pares, 9, 26, 13};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
